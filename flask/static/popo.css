@@ -1,0 +1,81 @@
+/* popo.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light grey background color */
+    color: #000000; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: relative;
+}
+
+.top-left-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 330px; /* Adjust the size as needed */
+    height: 110px; /* Adjust the size as needed */
+}
+
+.top-right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 390px; /* Adjust the size as needed */
+    height: 110px; /* Adjust the size as needed */
+}
+
+.form-title {
+    text-align: center;
+    color: #ff5755; /* Red color */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 140px auto 50px; /* Adjusted margin to shift the form downwards */
+}
+
+label {
+    font-weight: bold;
+    color: #ff5755; /* Red color */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ffffff; /* White */
+    color: #ff5755; /* Red */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff5755; /* Red */
+    color: #ffffff; /* Text color */
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+input:invalid {
+    border-color: #ff5755; /* Red */
+}
+
